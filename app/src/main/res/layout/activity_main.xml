@@ -91,6 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
+        android:onClick="lancarOnClick"
         android:text="Lançar"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/etData" />
@@ -100,6 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:onClick="listarLancamentosOnClick"
         android:text="Ver Lançamentos"
         app:layout_constraintStart_toStartOf="@+id/btLancar"
         app:layout_constraintTop_toBottomOf="@+id/btLancar" />
@@ -109,6 +111,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:onClick="listarSaldoOnClick"
         android:text="Saldo"
         app:layout_constraintStart_toStartOf="@+id/btVerLancamentos"
         app:layout_constraintTop_toBottomOf="@+id/btVerLancamentos" />

@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Lancamentos">
+    tools:context=".LancamentosActivity">
+
+    <ListView
+        android:id="@+id/lvLancamentos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LancamentosActivity"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
