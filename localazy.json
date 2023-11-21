@@ -1,0 +1,15 @@
+{
+
+  "writeKey": "a7576005393742035529-0ece49203a2887c8fe97296bc245ecfb27faf4a367a0ddc55e5208f5aa42ed02",
+  "readKey": "a7576005393742035529-d1fda6861594d1ed89119cf81fe6c549a82379999b055592979e059c2658cf1c",
+
+  "upload": {
+    "type": "android",
+    "files": "app/src/main/res/values/strings.xml"
+  },
+
+  "download": {
+    "files": "app/src/main/res/values-${langAndroidRes}/${file}"
+  }
+
+}
