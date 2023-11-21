@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="detalhe_credito_options" comment="As opções do spinner de detalhe de lançamento de crédito">
+    <item>"Salary"</item>
+    <item>"Extras"</item>
+  </string-array>
+  <string-array name="detalhe_debito_options" comment="As opções do spinner de detalhe de lançamento de débito">
+    <item>"Feed"</item>
+    <item>"Transport"</item>
+    <item>"Health"</item>
+    <item>"Townhouse"</item>
+  </string-array>
+  <string-array name="tipo_options" comment="As opções do spinner de tipo de lançamento">
+    <item>"Credit"</item>
+    <item>"Debiting"</item>
+  </string-array>
+  <string name="activity_lancamentos" comment="O nome da atividade de lançamentos">"Releases"</string>
+  <string name="activity_main" comment="O nome da activity principal">"Cash Flow"</string>
+  <string name="alerta_ok" comment="O texto do botão que confirma o alerta">"OK"</string>
+  <string name="alerta_saldo" comment="O título do alerta que mostra o saldo">"Balance"</string>
+  <string name="app_name">"Cash Flow"</string>
+  <string name="msg_erro" comment="A mensagem de erro ao lançar um lançamento com valor inválido">"Invalid value"</string>
+  <string name="msg_sucesso" comment="A mensagem de sucesso ao lançar um lançamento">"Successful launch"</string>
+  <string name="text_data" comment="O texto do TextView que mostra a data do lançamento">"Date Launch. :"</string>
+  <string name="text_detalhe" comment="O texto do TextView que mostra o detalhe do lançamento">"Detail:"</string>
+  <string name="text_lancar" comment="O texto do botão que faz o lançamento">"Launch"</string>
+  <string name="text_tipo" comment="O texto do TextView que mostra o tipo de lançamento">"Type:"</string>
+  <string name="text_valor" comment="O texto do TextView que mostra o valor do lançamento">"Value:"</string>
+  <string name="text_ver_lancamentos" comment="O texto do botão que mostra os lançamentos">"See releases"</string>
+  <string name="text_ver_saldo" comment="O texto do botão que mostra o saldo">"View balance"</string>
+  <string name="tipo_credito" comment="O tipo de lançamento de crédito">"Credit"</string>
+  <string name="tipo_debito" comment="O tipo de lançamento de débito">"Debiting"</string>
+</resources>

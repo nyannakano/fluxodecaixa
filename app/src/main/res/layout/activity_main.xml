@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="Tipo:"
+        android:text="@string/text_tipo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Detalhe:"
+        android:text="@string/text_detalhe"
         app:layout_constraintEnd_toStartOf="@+id/spTipo"
         app:layout_constraintStart_toStartOf="@+id/textTipo"
         app:layout_constraintTop_toBottomOf="@+id/textTipo" />
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Valor:"
+        android:text="@string/text_valor"
         app:layout_constraintStart_toStartOf="@+id/textDetalhe"
         app:layout_constraintTop_toBottomOf="@+id/textDetalhe" />
 
@@ -71,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Data Lanc.:"
+        android:text="@string/text_data"
         app:layout_constraintStart_toStartOf="@+id/textValor"
         app:layout_constraintTop_toBottomOf="@+id/etValor" />
 
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:onClick="lancarOnClick"
-        android:text="Lançar"
+        android:text="@string/text_lancar"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/etData" />
 
@@ -102,7 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:onClick="listarLancamentosOnClick"
-        android:text="Ver Lançamentos"
+        android:text="@string/text_ver_lancamentos"
         app:layout_constraintStart_toStartOf="@+id/btLancar"
         app:layout_constraintTop_toBottomOf="@+id/btLancar" />
 
@@ -112,7 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:onClick="listarSaldoOnClick"
-        android:text="Saldo"
+        android:text="@string/text_ver_saldo"
         app:layout_constraintStart_toStartOf="@+id/btVerLancamentos"
         app:layout_constraintTop_toBottomOf="@+id/btVerLancamentos" />
 

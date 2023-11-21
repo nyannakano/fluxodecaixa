@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="detalhe_credito_options" comment="As opções do spinner de detalhe de lançamento de crédito">
+    <item>"Зарплата"</item>
+    <item>"Дополнительно"</item>
+  </string-array>
+  <string-array name="detalhe_debito_options" comment="As opções do spinner de detalhe de lançamento de débito">
+    <item>"Кормление"</item>
+    <item>"Транспортировка"</item>
+    <item>"ура"</item>
+    <item>"ратуша"</item>
+  </string-array>
+  <string-array name="tipo_options" comment="As opções do spinner de tipo de lançamento">
+    <item>"Кредит"</item>
+    <item>"Дебет"</item>
+  </string-array>
+  <string name="activity_lancamentos" comment="O nome da atividade de lançamentos">"релизы"</string>
+  <string name="activity_main" comment="O nome da activity principal">"Денежный поток"</string>
+  <string name="alerta_ok" comment="O texto do botão que confirma o alerta">"ОК"</string>
+  <string name="alerta_saldo" comment="O título do alerta que mostra o saldo">"Баланс"</string>
+  <string name="app_name">"Денежный поток"</string>
+  <string name="msg_erro" comment="A mensagem de erro ao lançar um lançamento com valor inválido">"Неверное значение"</string>
+  <string name="msg_sucesso" comment="A mensagem de sucesso ao lançar um lançamento">"Успешный запуск"</string>
+  <string name="text_data" comment="O texto do TextView que mostra a data do lançamento">"Дата запуска. :"</string>
+  <string name="text_detalhe" comment="O texto do TextView que mostra o detalhe do lançamento">"Деталь:"</string>
+  <string name="text_lancar" comment="O texto do botão que faz o lançamento">"Запуск"</string>
+  <string name="text_tipo" comment="O texto do TextView que mostra o tipo de lançamento">"Тип:"</string>
+  <string name="text_valor" comment="O texto do TextView que mostra o valor do lançamento">"Значение:"</string>
+  <string name="text_ver_lancamentos" comment="O texto do botão que mostra os lançamentos">"См. релизы"</string>
+  <string name="text_ver_saldo" comment="O texto do botão que mostra o saldo">"Показать баланс"</string>
+  <string name="tipo_credito" comment="O tipo de lançamento de crédito">"Кредит"</string>
+  <string name="tipo_debito" comment="O tipo de lançamento de débito">"Дебет"</string>
+</resources>
