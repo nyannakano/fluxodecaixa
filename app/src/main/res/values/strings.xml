@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Fluxo de Caixa</string>
+    <string name="activity_lancamentos" comment="O nome da atividade de lançamentos">Lançamentos</string>
+    <string name="tipo_credito" comment="O tipo de lançamento de crédito">Crédito</string>
+    <string name="tipo_debito" comment="O tipo de lançamento de débito">Débito</string>
+    <string name="text_tipo" comment="O texto do TextView que mostra o tipo de lançamento">Tipo:</string>
+    <string name="text_detalhe" comment="O texto do TextView que mostra o detalhe do lançamento">Detalhe:</string>
+    <string name="text_valor" comment="O texto do TextView que mostra o valor do lançamento">Valor:</string>
+    <string name="text_data" comment="O texto do TextView que mostra a data do lançamento">Data Lanc.:</string>
+    <string name="text_lancar" comment="O texto do botão que faz o lançamento">Lançar</string>
+    <string name="text_ver_lancamentos" comment="O texto do botão que mostra os lançamentos">Ver lançamentos</string>
+    <string name="text_ver_saldo" comment="O texto do botão que mostra o saldo">Ver saldo</string>
+
+    <string name="activity_main" comment="O nome da activity principal">Fluxo de caixa</string>
+    <string-array name="tipo_options" comment="As opções do spinner de tipo de lançamento">
+        <item>Crédito</item>
+        <item>Débito</item>
+    </string-array>
+    <string-array name="detalhe_credito_options" comment="As opções do spinner de detalhe de lançamento de crédito">
+        <item>Salário</item>
+        <item>Extras</item>
+    </string-array>
+    <string-array name="detalhe_debito_options" comment="As opções do spinner de detalhe de lançamento de débito">
+        <item>Alimentação</item>
+        <item>Transporte</item>
+        <item>Saúde</item>
+        <item>Moradia</item>
+    </string-array>
+    <string name="msg_sucesso" comment="A mensagem de sucesso ao lançar um lançamento">Lançamento efetuado com sucesso</string>
+    <string name="msg_erro" comment="A mensagem de erro ao lançar um lançamento com valor inválido">Valor inválido</string>
+    <string name="alerta_saldo" comment="O título do alerta que mostra o saldo">Saldo</string>
+    <string name="alerta_ok" comment="O texto do botão que confirma o alerta">OK</string>
 </resources>

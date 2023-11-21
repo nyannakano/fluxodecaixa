@@ -29,9 +29,9 @@ class MainActivity : AppCompatActivity() {
         spTipo = findViewById(R.id.spTipo)
         spDetalhe = findViewById(R.id.spDetalhe)
 
-        val tipoOptions = arrayOf("Crédito", "Débito")
-        val detalheDebitoOptions = arrayOf("Alimentação", "Transporte", "Saúde", "Moradia")
-        val detalheCreditoOptions = arrayOf("Salário", "Extras")
+        val tipoOptions = resources.getStringArray(R.array.tipo_options)
+        val detalheDebitoOptions = resources.getStringArray(R.array.detalhe_debito_options)
+        val detalheCreditoOptions = resources.getStringArray(R.array.detalhe_credito_options)
 
         val adapterTipo = ArrayAdapter(this, android.R.layout.simple_spinner_item, tipoOptions)
         spTipo.adapter = adapterTipo
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             ) {
                 val selectedTipo = tipoOptions[position]
 
-                val detalheOptions = if (selectedTipo == "Crédito") {
+                val detalheOptions = if (selectedTipo == getString(R.string.tipo_credito)) {
                     detalheCreditoOptions
                 } else {
                     detalheDebitoOptions
@@ -77,9 +77,9 @@ class MainActivity : AppCompatActivity() {
             val registro = Caixa(0, valor, detalhe, etDataLanc, tipo)
 
             banco.incluir(registro)
-            Toast.makeText(this, "Lançamento efetuado com sucesso", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.msg_sucesso), Toast.LENGTH_LONG).show()
         } catch (e: NumberFormatException) {
-            Toast.makeText(this, "Valor inválido", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.msg_erro), Toast.LENGTH_LONG).show()
         }
     }
 
@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
 
         for (caixa in registros) {
 
-            if (caixa.tipo == "Crédito") {
+            if (caixa.tipo == getString(R.string.tipo_credito)) {
                 saldo += caixa.valor
             } else {
                 saldo -= caixa.valor
@@ -97,10 +97,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         val builder = AlertDialog.Builder(this)
-        builder.setTitle("Saldo")
+        builder.setTitle(getString(R.string.alerta_saldo))
         builder.setMessage(saldo.toString())
 
-        builder.setPositiveButton("OK") { dialog, _ ->
+        builder.setPositiveButton(getString(R.string.alerta_ok)) { dialog, _ ->
             dialog.dismiss()
         }
 
@@ -112,6 +112,4 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, LancamentosActivity::class.java)
         startActivity(intent)
     }
-
-
 }
